@@ -1,0 +1,143 @@
+/*--------------------------------------------------------------
+Typography
+--------------------------------------------------------------*/
+
+body,
+button,
+input,
+select,
+textarea {
+	font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	background-color: #4d4d4d
+}
+textarea:focus, input:focus {
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+
+/*--------------------------------------------------------------
+Layout
+--------------------------------------------------------------*/
+body {
+    margin: 0;
+    padding: 0;
+    background:#1d1e22;;
+}
+
+.masthead {
+    padding: 1em 2em;
+    background-color: #0D1B2E;
+    color: white;
+    
+    
+}
+
+.masthead h1,h2,h3{
+    text-align: center;
+    margin:0;
+}
+.contact-info{
+    text-align: center;
+    padding: 10px;
+    background: #2B2D42;
+}
+.contact-info a{
+    padding: 10px;
+    display: inline-block;
+}
+a{
+    color: red;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.intro {
+    padding: 2em 2em;
+    color: #ffffff;
+    background: #4d4d4d;
+}
+
+
+.intro p,
+.test-area {
+    margin: 0 auto;
+    max-width: 550px;
+    
+}
+
+.test-area {
+    margin-bottom: 4em;
+    padding: 0 2em;
+    background: #1d1e22;
+}
+
+.test-wrapper {
+    border: 10px solid grey;
+    border-radius: 10px;
+}
+
+#origin-text {
+    margin: 1em 0;
+    padding: 1em 1em 0;
+    background-color: #1d1e22;
+    color: white;
+}
+
+#origin-text p {
+    margin: 0;
+    padding-bottom: 1em;
+}
+
+.test-wrapper {
+    display: flex;
+}
+
+.test-wrapper textarea {
+    flex: 1;
+}
+
+.meta {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.timer {
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+}
+
+#reset {
+    padding: .5em 1em;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #E95D0F;
+    background: linear-gradient(to right, darkBlue, blue);
+    border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 100%;
+    
+}
+
+#reset:hover {
+    color: white;
+    background-color: #E95D0F;
+}
